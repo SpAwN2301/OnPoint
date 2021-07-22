@@ -1,3 +1,7 @@
+.intro .container {
+    padding-right: 140px;
+}
+
 .intro__descrip-wrapper::-webkit-scrollbar { 
     width: 24px;
 }
@@ -10,7 +14,7 @@
 }
    
 .intro__descrip-wrapper::-webkit-scrollbar-thumb {
-    background-color: #ff5775;
+    background: url('../../img/scrollbar.png') center center / cover no-repeat;
     border-radius: 1em;
 }
 
@@ -39,4 +43,14 @@
 
     font-size: 26px;
     line-height: 1.4em;
+}
+
+#bg-pink-sperm {
+    position: absolute;
+    z-index: -2;
+    top: 90px;
+    left: 300px;
+    width: 1400px;
+
+    animation: 2s ease-in-out appearance;
 }

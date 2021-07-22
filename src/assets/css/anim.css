@@ -61,3 +61,14 @@
         transform: translate(0, 0);
     }
 }
+
+@keyframes appearance {
+    from {
+        transform: translate(100px, 100px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
