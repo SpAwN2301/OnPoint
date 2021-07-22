@@ -20,7 +20,7 @@
 
                     <a href="#intro"><button class="button button_greet">
                         <img src="assets/icons/btn-next.png" alt="next" class="button__img">
-                        Что дальше?
+                        <div class="button__text">Что дальше?</div>
                     </button></a>
                 </div>
                 
@@ -70,8 +70,13 @@
 
         <section class="about">
             <div class="container">
-                <div class="title title_three">КЛЮЧЕВОЕ СООБЩЕНИЕ</div>
-                <div class="title title_big title_center">BREND<span class="span bold">XY</span></div>
+                <div class="title title_three">КЛЮЧЕВОЕ СООБЩЕНИЕ
+                    <div id="modalTitle" class="title__clone fadeIn">ПРЕИМУЩЕСТВА</div>
+                </div>
+
+                <div class="title title_big title_center">BREND<span class="span bold">XY</span>
+                <div class="title__clone">BREND<span class="span bold">XY</span></div>
+                </div>
                 <div class="about__clouds">
                     <div class="cloud cloud_big">
                         3 раза в день после 
@@ -89,7 +94,72 @@
                         <img src="assets/icons/calendar.png" alt="" class="cloud__icon">  
                         <div class="shadow shadow_little"></div>                                      
                     </div>
+                    <button id="openModal" class="button button_about">
+                        <img src="assets/icons/btn-next.png" alt="next" class="button__img">
+                        <div class="button__text">Подробнее</div>
+                    </button>
+                </div>
 
+                <div class="bottle-wrapper">
+                    <div class="bottle">
+                        <img id="bottle" src="assets/img/bottle.png" alt="">
+                        <img id="bubble-1" src="assets/img/bubbles/bubble-1.png" alt="bubble-1">
+                        <img id="bubble-2" src="assets/img/bubbles/bubble-2.png" alt="bubble-2">
+                        <img id="bubble-3" src="assets/img/bubbles/bubble-3.png" alt="bubble-3">
+                        <img id="bubble-4" src="assets/img/bubbles/bubble-4.png" alt="bubble-4">
+                        <img id="bubble-5" src="assets/img/bubbles/bubble-5.png" alt="bubble-5">
+                        <img id="bubble-6" src="assets/img/bubbles/bubble-6.png" alt="bubble-6">
+                        <img id="bubble-7" src="assets/img/bubbles/bubble-7.png" alt="bubble-7">
+                        <img id="bubble-8" src="assets/img/bubbles/bubble-8.png" alt="bubble-8">
+                    </div>
+                </div>
+                <div id="modal" class="modal__wrapper fadeIn">
+                    <div class="modal">
+                        <span id="closeModal" class="modal__close">&times;</span>
+                        <div class="slider__wrapper">
+                            <div class="slider">
+                                <ul class="advantage__list fadeIn">
+                                    <li class="advantage">
+                                        <div class="advantage__number">01</div>
+                                        <div class="advantage__text">Самое важное и ключевое преимущество нашего препарата</div>
+                                    </li>
+                                    <li class="advantage">
+                                        <div class="advantage__number">02</div>
+                                        <div class="advantage__text">Второе по важности преимущество</div>
+                                    </li>
+                                    <li class="advantage">
+                                        <div class="advantage__number">03</div>
+                                        <div class="advantage__text">Ещё одно важное преимущество препарата</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="slider">
+                                <ul class="advantage__list fadeIn">
+                                    <li class="advantage">
+                                        <div class="advantage__number">04</div>
+                                        <div class="advantage__text">Ещё одно не менее важное преимущество препарата</div>
+                                    </li>
+                                    <li class="advantage">
+                                        <div class="advantage__number">05</div>
+                                        <div class="advantage__text">Ещё одно важное преимущество препарата</div>
+                                    </li>
+                                    <li class="advantage">
+                                        <div class="advantage__number">06</div>
+                                        <div class="advantage__text">Ещё одно важное преимущество препарата</div>
+                                    </li>
+                                </ul>
+                            </div>       
+                            
+                        </div>
+                            
+                        <div class="slider__controls">
+                            <a class="prev">&#10094;</a>
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <a class="next">&#10095;</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -97,3 +167,42 @@
     </div>
 </body>
 </html>
+
+
+<!-- 
+<div class="slide slide_1">
+    <div class="slide-content">
+        <ol class="advantage">
+            <li>
+                <div class="advantage__number">01</div>
+                <div class="advantage__text">Самое важное и ключевое преимущество нашего препарата</div>
+            </li>
+            <li>
+                <div class="advantage__number">02</div>
+                <div class="advantage__text">Второе по важности преимущество</div>
+            </li>
+            <li>
+                <div class="advantage__number">03</div>
+                <div class="advantage__text">Ещё одно важное преимущество препарата</div>
+            </li>
+        </ol>
+    </div>
+</div>
+<div class="slide slide_2">
+    <div class="slide-content">
+        <ol class="advantage">
+            <li>
+                <div class="advantage__number">04</div>
+                <div class="advantage__text">Ещё одно не менее важное преимущество препарата</div>
+            </li>
+            <li>
+                <div class="advantage__number">05</div>
+                <div class="advantage__text">Ещё одно важное преимущество препарата</div>
+            </li>
+            <li>
+                <div class="advantage__number">06</div>
+                <div class="advantage__text">Ещё одно важное преимущество препарата</div>
+            </li>
+        </ol>
+    </div>
+</div> -->

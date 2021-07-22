@@ -9,6 +9,7 @@
 }
 
 .title.title_big {
+    position: relative;
     font-family: 'Gilroy-Regular';
 
     font-size: 100px;
@@ -18,8 +19,19 @@
     font-weight: 300;
 }
 
+.title__clone {
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+}
+
+#modalTitle {
+    display: none;
+}
+
 .title.title_big.title_center {
-    margin: 0 auto;
+    margin-left: 215px;
 }
 
 .title.title_one {
@@ -35,8 +47,7 @@
 .title.title_three {
     position: absolute;
     top: 130px;
-    left: calc(50% + 20px);
-    transform: translateX(-50%);
+    left: 300px;
 }
 
 .title.title_abs {

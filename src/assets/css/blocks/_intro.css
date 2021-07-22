@@ -19,6 +19,7 @@
 }
 
 .intro__descrip-wrapper {
+    z-index: 2;
     overflow-y: auto;
     direction: rtl;
 
@@ -47,10 +48,7 @@
 
 #bg-pink-sperm {
     position: absolute;
-    z-index: -2;
     top: 90px;
     left: 300px;
     width: 1400px;
-
-    animation: 2s ease-in-out appearance;
 }

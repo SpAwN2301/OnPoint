@@ -1,9 +1,5 @@
 .button {
     cursor: pointer;
-    
-    display: inline-grid;
-    align-items: center;
-    grid-template-columns: 60px 200px;
 
     padding: 10px;
 
@@ -17,8 +13,28 @@
     font-size: 25px;
 }
 
+.button .button__text {
+    margin: 0 auto;
+}
+
 .button .button__img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+
+.button.button_greet {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button.button_about {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+
+    width: 250px;
 }

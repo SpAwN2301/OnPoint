@@ -4,6 +4,7 @@
 @import '_buttons.css';
 @import '_titles.css';
 @import '_spans.css';
+@import '_sliders.css';
 
 @import 'blocks/_greet.css';
 @import 'blocks/_intro.css';
@@ -17,13 +18,18 @@
     padding: 0;
 
     box-sizing: border-box;
+}
 
+a {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
     position: relative;
-    z-index: 10;
 
     display: flex;
     flex-direction: column;
@@ -74,6 +80,7 @@
 }
 
 section {
+    overflow: hidden;
     flex: none;
     scroll-snap-align: start;
 
@@ -106,13 +113,11 @@ section {
     pointer-events: none;
 
     position: absolute;
-    z-index: -1;
     top: 0;
     left: 0;
 
     border-radius: 40px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-    background-color: white;
 }
 
 .shadow.shadow_main {
@@ -120,6 +125,8 @@ section {
     left: auto;
     width: 760px;
     height: 475px;
+
+    background: white;
 }
 
 .shadow.shadow_big {
