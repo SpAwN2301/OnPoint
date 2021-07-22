@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Gilroy-Regular';
+	src: url('../fonts/gilroy-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('../fonts/din_pro.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/din_pro.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/din_pro.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/din_pro.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/din_pro.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/din_pro.svg#din_pro') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'DIN Pro Black';
+	src: url('../fonts/din_pro_black.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/din_pro_black.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/din_pro_black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/din_pro_black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/din_pro_black.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/din_pro_black.svg#din_pro_black') format('svg'); /* Chrome < 4, Legacy iOS */
+}
