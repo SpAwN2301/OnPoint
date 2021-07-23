@@ -1,23 +1,24 @@
 .about {
-    
     background: url('../../img/bg/bg-3.svg') center center / cover no-repeat;
 }
 
 .about__clouds {
     position: relative;
+    z-index: 2;
     display: flex;
 
     width: 760px;
     
     margin-top: 60px;
-    margin-left: 115px;
+    margin-left: 176px;
 }
 
 .cloud {
     position: relative;
 
     font-family: 'DIN Pro';
-    font-size: 20px;
+    font-size: 25px;
+    color: #2e2e2e;
 
     border-radius: 40px;
 
@@ -26,10 +27,10 @@
 
 .cloud.cloud_big {
     margin-right: 50px;
-    padding: 50px 45px 0 105px;
+    padding: 55px 64px 0 105px;
 
-    width: 435px;
-    height: 270px;
+    width: 413px;
+    height: 265px;
 }
 
 .cloud.cloud_big img {
@@ -41,9 +42,9 @@
 }
 
 .cloud.cloud_little {
-    padding: 45px 30px 50px 35px;
-    width: 275px;
-    height: 155px;
+    padding: 55px 30px 50px 35px;
+    width: 263px;
+    height: 150px;
 }
 
 .cloud.cloud_little img {
@@ -57,13 +58,13 @@
 .modal__wrapper {
     position: absolute;
     z-index: 3;
-    top: 100px;
+    top: 123px;
     left: 125px;
 
     display: none;
 
     width: 860px;
-    height: 580px;
+    height: 573px;
 }
 
 .modal {
@@ -71,7 +72,7 @@
     width: 100%;
     height: 100%;
 
-    padding: 210px 100px 50px 175px;
+    padding: 187px 100px 50px 230px;
 
     border-radius: 40px;
     background: white;
@@ -91,13 +92,13 @@
 .bottle-wrapper {
     position: absolute;
     bottom: 0;
-    left: 40px;
+    left: 45px;
 }
 
 .bottle {
     position: relative;
-    width: 200px;
-    height: 600px;
+    width: 240px;
+    height: 700px;
 }
 
 #bottle {

@@ -3,6 +3,9 @@
 }
 
 .slider__controls {
+    position: absolute;
+    bottom: 15px;
+    
     display: flex;
     align-items: center;
 }
@@ -45,8 +48,8 @@
 }
 
 .advantage {
-    margin-top: 20px;
-    font-size: 27px;
+    margin-top: 23px;
+    font-size: 25px;
 }
 
 .advantage .advantage__number {

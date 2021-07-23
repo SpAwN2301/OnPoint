@@ -76,8 +76,9 @@
 
 #pink-sperm-1 {
     position: absolute;
-    top: 155px;
-    right: -50px;
+    z-index: 1;
+    top: 176px;
+    left: 450px;
 
     width: 590px;
 }

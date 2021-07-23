@@ -9,13 +9,13 @@ windowScroll.addEventListener('scroll', ()=>{
     let dist = Math.abs(document.getElementById('greet').getBoundingClientRect().x);
 
     if(dist == 0){
-        animatedEl.removeAttribute('class');
-        animatedEl.style.display = 'none';
+        animatedEl.style.opacity = 0;
+        animatedEl.style.transform = 'translate(100px, 100px)';
     }
     
     if(dist == windowWidth){
-        animatedEl.style.display = 'block';
-        animatedEl.classList.add('appearanceDiag');
+        animatedEl.style.opacity = 1;
+        animatedEl.style.transform = 'translate(0, 0)';
     }
     
 });
@@ -69,11 +69,12 @@ function showSlides(n) {
   let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
+
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+    slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";

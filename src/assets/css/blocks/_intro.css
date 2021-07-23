@@ -7,12 +7,12 @@
 }
 
 .intro__descrip-wrapper::-webkit-scrollbar { 
-    width: 24px;
+    width: 20px;
 }
    
 .intro__descrip-wrapper::-webkit-scrollbar-track {
     background-color: #000000;
-    border: 10px solid transparent;
+    border: 8px solid transparent;
     border-radius: 1em;
     background-clip: content-box;
 }
@@ -27,11 +27,12 @@
     overflow-y: auto;
     direction: rtl;
 
-    margin-top: 20px;
+    margin-top: 45px;
+
+    width: 821px;
+    height: 445px;
 
     border-radius: 40px;
-    
-    height: 475px;
 }
 
 .intro .intro__descrip {    
@@ -40,20 +41,27 @@
     
     padding: 30px;
 
-    width: 760px;
+    width: 775px;
 
     border-radius: 40px;
 
     background: transparent;
 
-    font-size: 26px;
-    line-height: 1.4em;
+    font-family: 'DIN Pro';
+    font-size: 22px;
+    line-height: 30px;
 }
 
 #bg-pink-sperm {
-    display: none;
+    pointer-events: none;
     position: absolute;
+    z-index: 1;
     top: 90px;
     left: 300px;
     width: 1400px;
+
+    opacity: 0;
+    transform: translate(100px, 100px);
+
+    transition: all 1s;
 }

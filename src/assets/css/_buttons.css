@@ -31,10 +31,10 @@
 .button.button_about {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 35px;
 
     display: flex;
     align-items: center;
 
-    width: 250px;
+    width: 263px;
 }
