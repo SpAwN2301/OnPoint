@@ -3,17 +3,21 @@ import './assets/css/style.css';
 
 let windowScroll = document.getElementsByClassName('fullpageScroll')[0];
 let windowWidth = innerWidth;
+let animatedEl = document.getElementById('bg-pink-sperm');
 
 windowScroll.addEventListener('scroll', ()=>{
     let dist = Math.abs(document.getElementById('greet').getBoundingClientRect().x);
-    let animatedEl = document.getElementById('bg-pink-sperm');
-    animatedEl.style.display = 'none';
-    animatedEl.classList.remove('appearanceDiag')
 
+    if(dist == 0){
+        animatedEl.removeAttribute('class');
+        animatedEl.style.display = 'none';
+    }
+    
     if(dist == windowWidth){
         animatedEl.style.display = 'block';
         animatedEl.classList.add('appearanceDiag');
     }
+    
 });
 
 

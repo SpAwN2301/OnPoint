@@ -1,3 +1,8 @@
+.about {
+    
+    background: url('../../img/bg/bg-3.svg') center center / cover no-repeat;
+}
+
 .about__clouds {
     position: relative;
     display: flex;
